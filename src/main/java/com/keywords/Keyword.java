@@ -124,14 +124,14 @@ public class Keyword {
 
 	}
 
-	/*public static void explicitWait(int duration, String locatorType, String locatorValue) {
+	public static void explicitWait(int duration, String locatorType, String locatorValue) {
 		WebElement element = getWebelement(locatorType, locatorValue);
 
 		Object wait = new FluentWait(Constants.driver).withTimeout(duration, TimeUnit.SECONDS)
 				.pollingEvery(duration, TimeUnit.SECONDS).withMessage("element is not clickable at this moment")
 				.ignoring(NoSuchElementException.class).until(ExpectedConditions.elementToBeClickable(element));
 
-	}*/
+	}
 
 	public static void waitForElementToInteractable(String locatorType, String locatorValue) {
 		WebElement element = getWebelement(locatorType, locatorValue);

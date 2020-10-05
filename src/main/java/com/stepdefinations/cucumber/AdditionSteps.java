@@ -8,11 +8,11 @@ import io.cucumber.java.en.When;
 
 public class AdditionSteps {
 	
-	  @Before 
+	 /* @Before 
 	  public void openchromebrowser() { 
 		  System.out.println("Chrome browser is open");
 	  
-	  }
+	  }*/
 	 
 	/*
 	 * @Given("Chrome browser is opened") public void chrome_browser_is_opened() {

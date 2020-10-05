@@ -45,7 +45,7 @@ public class MyntraTestCases {
 	}
 	
 	
-	@Test(priority = 1)
+	/*@Test(priority = 1)
 	public void loginOrSignup() throws InterruptedException {
 		parts = PropertiesUtil.getLocator("clickonprofile");
 		Keyword.mouseHover(parts[0], parts[1]);
@@ -278,5 +278,10 @@ public class MyntraTestCases {
 		Assert.assertEquals(Constants.webelement.getText(), Constants.webelement.getText());
 		
 	}*/
+	@Test
+	public void EnterIn() {
+		// TODO Auto-generated method stub
+
+	}
 
 }

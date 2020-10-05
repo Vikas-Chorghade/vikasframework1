@@ -26,6 +26,7 @@ public class logInHeaderTest {
 		ph.logInPasswordEnter();
 		ph.clickOnLogInBtn();
 		
+		
 
 	}
 

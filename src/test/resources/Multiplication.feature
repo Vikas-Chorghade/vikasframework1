@@ -1,6 +1,6 @@
 Feature: This is second feature file to perform multiplication
-#Background:
-#Given Chrome browser is opened
+#Background: Firebox  browser is opened
+Given Chrome browser is opened
 
 @smoke
 Scenario: Pass two integer and verify the multiplication result
